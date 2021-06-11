@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), color-stop(80%, #3b55d6));
+  background: linear-gradient(black 10%, #3b55d6 80%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+  font-family: serif;
+}
+
+body h3, body h1 {
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+
+body td, body th {
+  color: white;
+}
+
+body header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em !important;
+  height: 20vh;
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav a {
+  display: inline-block;
+  margin: 1em;
+  height: auto;
+  width: auto;
+  padding: .5em;
+  border-radius: 2px;
+  text-decoration: none;
+  background-color: rgba(24, 221, 221, 0.4);
+}
+
+body header nav a.active {
+  background-color: #86b4b6;
+}
+
+body section {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section form {
+  position: relative;
+  width: 50%;
+  padding: 1.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+body section form fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-left: 1.5em;
+  width: 95%;
+  border: thin;
+  border-color: white;
+}
+
+body section form fieldset input, body section form fieldset .btn {
+  width: 100%;
+  border-radius: 5px;
+  border-color: blue;
+}
+
+body section form fieldset select {
+  margin-bottom: 1em;
+  padding: .25em;
+  border-radius: 5px;
+}
+
+body section form fieldset p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section form fieldset label {
+  color: black;
+  font-family: serif;
+}
+/*# sourceMappingURL=style.css.map */
